@@ -4,8 +4,6 @@
 
 #include<stdio.h>
 
-using namespace std;
-
 #define ALPHABET 26
 
 typedef struct TrieNode {
