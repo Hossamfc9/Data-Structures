@@ -57,5 +57,5 @@ bool search(TrieNode* Trie, char* word, int N) {
 }
 
 int main() {
-
+    
 }
