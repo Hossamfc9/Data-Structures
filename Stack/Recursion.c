@@ -1,6 +1,10 @@
+/**
+ * Author: Hossam Hassan
+ * Description: applications on stacks
+*/
 #include <stdio.h>
 
-/** O(n ^ 2)*/
+/** Time Complexity: O(2 ^ n)*/
 void hanoi(int N, char from, char to, char aux) {
     if(N) {
         hanoi(N - 1, from, aux, to);
@@ -10,6 +14,8 @@ void hanoi(int N, char from, char to, char aux) {
     return;
 }
 
+
+/** Time Complexity: O(2 ^ n)*/
 void hanoi2(int N, char from, char to, char aux) {
     int temp;
     while(N > 0) {
@@ -22,6 +28,8 @@ void hanoi2(int N, char from, char to, char aux) {
     }
     return;
 }
+
+
 
 int main() {
     hanoi(4, 'A', 'C', 'B');
