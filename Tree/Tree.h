@@ -30,3 +30,7 @@ int TreeDepth(Tree*);
 void Preorder(Tree*, void(*)(TreeEntry));
 void Inorder(Tree*, void(*)(TreeEntry));
 void Postorder(Tree*, void(*)(TreeEntry));
+int TreeDepthRec(Tree*);
+int TreeDepth2(Tree*);
+void InsertTreeRec(Tree*, TreeEntry*);
+void InsertTree2(Tree2*, TreeEntry*);
